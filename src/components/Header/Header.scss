@@ -1,0 +1,77 @@
+.header {
+  max-width: 1340px;
+  margin: 50px auto;
+  .search {
+    max-width: 800px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #E5702A;
+
+    .search-input {
+      padding:3px 5px;
+      width: 100%;
+      font-family: 'HelveticaNeueCyr', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 172.8%;
+      color: #E5702A;
+      ::placeholder {
+        font-family: 'HelveticaNeueCyr', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 172.8%;
+        color: rgba(229, 112, 42, 0.5);
+      }
+
+      input {
+        all: unset;
+        max-width: 740px;
+        width: 100%;
+      }
+    }
+    .search-img {
+      padding:3px 5px;
+      cursor: pointer;
+    }
+    .hints{
+      padding:3px 5px;
+      font-family: 'HelveticaNeueCyr', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 172.8%;
+      color: #E5702A;
+      border-top: 1px solid #FFAB79;
+    }
+  }
+
+
+  .profile-name {
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 172.8%;
+  }
+  .profile-logo {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .logoMobile{
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .logo{
+    cursor: pointer;
+  }
+
+
+}
+
+
+
+
+

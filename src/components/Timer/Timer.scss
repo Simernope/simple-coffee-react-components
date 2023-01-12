@@ -1,0 +1,29 @@
+.timer{
+  border: 1px solid #E5702A;
+  border-radius: 10px;
+  padding: 10px;
+  .title{
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 172.8%;
+    .test-title-name{
+      color: #E5702A;
+      margin: 0 3px;
+    }
+
+  }
+  .till-end{
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 172.8%;
+    .time{
+      font-weight: 700;
+      color: #E5702A;
+      margin-left: 3px;
+    }
+  }
+}

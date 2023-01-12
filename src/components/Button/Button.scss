@@ -1,0 +1,19 @@
+.button {
+  font-family: 'HelveticaNeueCyr', sans-serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 14px;
+  line-height: 150%;
+  border: 1px solid #E5702A;
+  border-radius: 10px;
+  padding: 10px;
+  color: #E5702A;
+  margin-top: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #E5702A;
+  color: white;
+}

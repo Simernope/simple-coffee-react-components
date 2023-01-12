@@ -1,0 +1,23 @@
+.question{
+  margin-bottom: 20px;
+  border: 1px solid #E5702A;
+  border-radius: 10px;
+  padding: 10px;
+  .question-header{
+    .title{
+      font-family: 'HelveticaNeueCyr', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 172.8%;
+    }
+    .points{
+      font-family: 'HelveticaNeueCyr', sans-serif;
+      font-style: normal;
+      font-weight: 550;
+      font-size: 14px;
+      line-height: 172.8%;
+      color: #E5702A;
+    }
+  }
+}

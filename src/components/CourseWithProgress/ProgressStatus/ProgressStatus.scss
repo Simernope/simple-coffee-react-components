@@ -1,0 +1,68 @@
+.course-status {
+  font-family: 'HelveticaNeueCyr', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 172.8%;
+
+  .done-course {
+    color: #5BCE00;
+    background-color: #EFFBE6;
+    border-radius: 10px;
+
+    .result-image {
+      margin: 7px 12px;
+    }
+
+    .text-status {
+      margin-right: 12px;
+    }
+  }
+
+  .expired-course {
+    color: #E52A2A;
+    background-color: #FDEAEA;
+    border-radius: 10px;
+
+    .result-image {
+      margin: 7px 12px;
+    }
+
+    .text-status {
+      margin-right: 12px;
+    }
+  }
+
+  .failed-course {
+    color: #E52A2A;
+    background-color: #FDEAEA;
+    border-radius: 10px;
+
+    .result-image {
+      margin: 7px 12px;
+    }
+
+    .text-status {
+      margin-right: 12px;
+    }
+  }
+
+  .new-course {
+    color: #E5702A;
+    background-color: #FDF1EA;
+    border-radius: 10px;
+
+    .result-image {
+      margin: 7px 12px;
+    }
+
+    .text-status {
+      margin-right: 12px;
+    }
+  }
+
+}
+.continue-icon {
+  margin-left: 29px;
+}
+

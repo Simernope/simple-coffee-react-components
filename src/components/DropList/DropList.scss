@@ -1,0 +1,39 @@
+.dropList{
+  max-width: 182px;
+  margin-bottom: 10px;
+  .topic{
+    cursor: pointer;
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 172.8%;
+    color: #343534;
+    .sub-topic{
+      cursor: default;
+      font-family: 'HelveticaNeueCyr', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 172.8%;
+      .sub-topic-item{
+        margin-bottom: 5px;
+        margin-left: 20px;
+      }
+      .sub-topic-item-current{
+        margin-bottom: 5px;
+        margin-left: 0;
+        .ellipse{
+          margin-right: 10px;
+        }
+      }
+      .test-item{
+        color: #E5702A;
+
+      }
+    }
+  }
+  .arrow{
+
+  }
+}
