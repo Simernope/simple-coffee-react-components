@@ -28,6 +28,7 @@
 
       .card {
         border: none;
+        cursor: pointer;
       }
     }
 
@@ -40,6 +41,7 @@
         font-weight: 900;
         font-size: 32px;
         line-height: 172.8%;
+
       }
 
       .available-course-date {
@@ -54,7 +56,7 @@
         border: 1px solid #E5702A;
         padding: 20px;
         border-radius: 10px;
-
+        cursor: pointer;
         .prof {
           font-family: 'HelveticaNeueCyr', sans-serif;
           font-style: normal;
@@ -82,6 +84,10 @@
 
         }
       }
+      .course:hover{
+        .continue-icon {
+        }
+      }
     }
 
     .news-section {
@@ -101,6 +107,11 @@
         font-weight: 550;
         font-size: 14px;
         line-height: 150%;
+        cursor: pointer;
+        color: #FFAB79;
+
+      }
+      .show-all-news:hover{
         color: #E5702A;
       }
 
@@ -110,6 +121,7 @@
         background: #E5702A;
         border-radius: 10px;
         background-size: cover;
+        cursor: pointer;
 
         .news-title {
           font-family: 'HelveticaNeueCyr', sans-serif;
@@ -163,6 +175,7 @@
         border: 1px solid #E5702A;
         border-radius: 10px;
         height: 180px;
+        cursor: pointer;
         .event-title{
           font-family: 'HelveticaNeueCyr', sans-serif;
           font-style: normal;
