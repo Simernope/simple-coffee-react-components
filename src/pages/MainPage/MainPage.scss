@@ -1,4 +1,199 @@
-.main-page{
+.main-page {
   max-width: 1340px;
   margin: 0 auto;
+
+  .main-section {
+    .user-data {
+      .name {
+        font-family: 'HelveticaNeueCyr', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 172.8%;
+        margin-bottom: 0;
+      }
+
+      .profession {
+        font-family: 'HelveticaNeueCyr', sans-serif;
+        font-style: normal;
+        font-weight: 550;
+        font-size: 20px;
+        line-height: 140%;
+      }
+    }
+
+    .cards {
+      margin-top: 0;
+      margin-bottom: 20px;
+
+      .card {
+        border: none;
+      }
+    }
+
+    .current-course-section {
+      margin-bottom: 20px;
+
+      .current-course {
+        font-family: 'HelveticaNeueCyr', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 172.8%;
+      }
+
+      .available-course-date {
+        font-family: 'HelveticaNeueCyr', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 172.8%;
+      }
+
+      .course {
+        border: 1px solid #E5702A;
+        padding: 20px;
+        border-radius: 10px;
+
+        .prof {
+          font-family: 'HelveticaNeueCyr', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 172.8%;
+          margin-left: 20px;
+        }
+
+        .progress-percent {
+          padding: 5px 10px;
+          border-radius: 10px;
+          background-color: #FDF1EA;
+          font-family: 'HelveticaNeueCyr', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 172.8%;
+          text-align: right;
+          color: #E5702A;
+        }
+
+        .continue-icon {
+          margin-left: 29px;
+
+        }
+      }
+    }
+
+    .news-section {
+      margin-bottom: 20px;
+
+      .news {
+        font-family: 'HelveticaNeueCyr', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 172.8%;
+      }
+
+      .show-all-news {
+        font-family: 'HelveticaNeueCyr', sans-serif;
+        font-style: normal;
+        font-weight: 550;
+        font-size: 14px;
+        line-height: 150%;
+        color: #E5702A;
+      }
+
+      .news-card {
+        padding: 20px;
+        //background-image: url("../images/news-card.svg");
+        background: #E5702A;
+        border-radius: 10px;
+        background-size: cover;
+
+        .news-title {
+          font-family: 'HelveticaNeueCyr', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 132.8%;
+          color: #FFFFFF;
+          margin-bottom: 10px;
+        }
+
+        .news-description {
+          font-family: 'HelveticaNeueCyr', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 132.8%;
+          color: #FFFFFF;
+          margin-bottom: 10px;
+        }
+
+        .news-date {
+          font-family: 'HelveticaNeueCyr', sans-serif;
+          font-style: normal;
+          font-weight: 550;
+          font-size: 14px;
+          line-height: 132.8%;
+          color: #343534;
+        }
+      }
+
+    }
+    .events-section{
+      margin-bottom: 20px;
+
+      .events{
+        font-family: 'HelveticaNeueCyr', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 172.8%;
+      }
+      .right-arrow-event{
+        margin-left: 14px;
+      }
+      .card {
+        border: none;
+      }
+      .event{
+        padding: 20px;
+        border: 1px solid #E5702A;
+        border-radius: 10px;
+        height: 180px;
+        .event-title{
+          font-family: 'HelveticaNeueCyr', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 132.8%;
+          color: #343534;
+          margin-bottom: 10px;
+        }
+        .event-description{
+          font-family: 'HelveticaNeueCyr', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 132.8%;
+          color: #343534;
+          margin-bottom: 10px;
+      }
+        .event-detail-text{
+          font-family: 'HelveticaNeueCyr', sans-serif;
+          font-style: normal;
+          font-weight: 550;
+          font-size: 14px;
+          line-height: 132.8%;
+          color: #E5702A;
+        }
+        .event-detail-arrow{
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
 }
