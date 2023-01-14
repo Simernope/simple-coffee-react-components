@@ -164,8 +164,12 @@
         font-size: 32px;
         line-height: 172.8%;
       }
+      .left-arrow-event{
+        cursor: pointer;
+      }
       .right-arrow-event{
         margin-left: 14px;
+        cursor: pointer;
       }
       .card {
         border: none;
