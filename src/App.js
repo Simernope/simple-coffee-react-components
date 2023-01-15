@@ -1,12 +1,12 @@
 import './App.css';
 import Header from "./components/Header/Header";
-import MainPage from "./pages/MainPage/MainPage";
+import TestActive from "./pages/TestActive/TestActive";
 
 function App() {
   return (
       <>
           <Header/>
-          <MainPage/>
+          <TestActive/>
       </>
 
   );

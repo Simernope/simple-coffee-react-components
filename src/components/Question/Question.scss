@@ -19,5 +19,95 @@
       line-height: 172.8%;
       color: #E5702A;
     }
+
+  }
+  .answer-area{
+    .answers{
+      .answer-input{
+        all: unset;
+        box-sizing: border-box;
+        font-family: 'HelveticaNeueCyr', sans-serif;
+        font-style: normal;
+        font-weight: 550;
+        font-size: 14px;
+        line-height: 150%;
+
+        color: #E5702A;
+        border-radius: 10px;
+        padding: 10px;
+        border: 1px solid #E5702A;
+      }
+      .answer-input:focus{
+        border: 2px solid #E5702A;
+      }
+      .answer-input::placeholder{
+        font-family: 'HelveticaNeueCyr', sans-serif;
+        font-style: normal;
+        font-weight: 550;
+        font-size: 14px;
+        line-height: 150%;
+        color: #E5702A;
+        opacity: 0.5;
+      }
+      .answer{
+        margin: 10px 0;
+        .form-check-input {
+          border: 1px solid #E5702A;
+        }
+        .form-check-input:checked {
+          background-color: #E5702A;
+          border-color: #E5702A;
+        }
+        .form-check-input:focus {
+          outline: 0;
+          box-shadow: none;
+        }
+        .checkbox{
+          width: 20px;
+          height: 20px;
+        }
+        .answer-title{
+          margin-left: 10px;
+          font-family: 'HelveticaNeueCyr', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 150%;
+        }
+        .question-text{
+          font-family: 'HelveticaNeueCyr', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 180%;
+          text-align: justify;
+          .answer-important-info{
+            margin: 0 5px;
+            color: #E5702A;
+            cursor: pointer;
+            text-decoration: underline;
+            text-decoration-color: #E5702A;
+          }
+          .answer-text-input{
+            all: unset;
+            padding:0 5px;
+            border-bottom: 1px solid #E5702A;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            text-align: justify;
+            color: #E5702A;
+          }
+          .answer-text-input:focus{
+            border-bottom: 2px solid #E5702A;
+          }
+          .answer-text-input::placeholder {
+            color: #E5702A;
+            padding: 23px ;
+          }
+        }
+      }
+
+    }
   }
 }
