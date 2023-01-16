@@ -1,0 +1,36 @@
+.popup-container{
+  max-width: 450px;
+  font-family: 'HelveticaNeueCyr', sans-serif;
+  font-style: normal;
+  border: 1px solid #E5702A;
+  border-radius: 10px;
+  padding: 20px;
+  .popup-title{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 140%;
+  }
+  .popup-time-limit{
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #E5702A;
+    .time{
+      margin-left: 5px;
+      font-weight: 600;
+    }
+  }
+  .popup-description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+  }
+  .buttons-area{
+    margin-top: 40px;
+    .popup-button{
+      width: 195px;
+    }
+  }
+}

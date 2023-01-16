@@ -1,6 +1,6 @@
 import './Button.scss'
 
-const Button = ({title}) => {
+const Button = ({title="button"}) => {
     return(
         <div className="button">
             {title}

@@ -1,5 +1,5 @@
 import './Result.scss'
-import Button from "../Button/Button";
+import Button from "../Buttons/Button";
 import AttemptCard from "../AttemptCard/AttemptCard";
 
 const ResultGreat = () => {
