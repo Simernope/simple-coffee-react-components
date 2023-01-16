@@ -1,4 +1,5 @@
 import './Question.scss'
+import AnswerStatus from "../AnswerStatus/AnswerStatus";
 
 const QuestionCheckbox = () => {
     return (
@@ -25,12 +26,14 @@ const QuestionCheckbox = () => {
 
                         <label className="form-check-label answer-title" htmlFor="inlineRadio1">Можно это</label>
                     </div>
+                    <AnswerStatus/>
                     <div className="answer  ">
                         <input className="form-check-input checkbox" type="checkbox" id="inlineCheckbox1"
                                value="option1"/>
 
                         <label className="form-check-label answer-title" htmlFor="inlineRadio1">Можно это</label>
                     </div>
+                    <AnswerStatus status={false}/>
                     <div className="answer  ">
 
                         <input className="form-check-input checkbox" type="checkbox" id="inlineCheckbox1"

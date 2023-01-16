@@ -1,9 +1,9 @@
 import './Button.scss'
 
-const Button = () => {
+const Button = ({title}) => {
     return(
         <div className="button">
-                    Вернуться к тесту
+            {title}
 
         </div>
     )

@@ -1,13 +1,12 @@
 import './App.css';
 import Header from "./components/Header/Header";
-import TestActive from "./pages/TestActive/TestActive";
+import TestDone from "./pages/TestDone/TestDone";
 
 function App() {
   return (
       <>
           <Header/>
-          <TestActive/>
-      </>
+<TestDone/>      </>
 
   );
 }

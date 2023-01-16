@@ -1,0 +1,98 @@
+.result-container{
+  border: 1px solid #E5702A;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 80px;
+  .percent-great{
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+    background: #EFFBE6;
+    margin-right: 20px;
+    .percent-text{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      color: #5BCE00;
+    }
+  }
+  .percent-norm{
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+    background: rgba(229, 112, 42, 0.1);
+    margin-right: 20px;
+    .percent-text{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      color: #E5702A;
+    }
+  }
+
+    .percent-fail{
+      width: 150px;
+      height: 150px;
+      background: rgba(229, 42, 42, 0.1);
+      border-radius: 4px;
+      margin-right: 20px;
+      .percent-text{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        color: #E52A2A;
+      }
+
+  }
+  .grade-text{
+    height: 150px;
+    .grade-title{
+      font-family: 'HelveticaNeueCyr', sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 32px;
+      line-height: 100%;
+    }
+    .grade-description{
+      font-family: 'HelveticaNeueCyr', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 140%;
+
+      .grade-description-mark{
+        color: #E5702A;
+      }
+
+
+    }
+    .buttons-area{
+      .result-button{
+        width: 200px;
+        color: #5BCE00;
+      }
+      .result-tries{
+      font-family: 'HelveticaNeueCyr', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 100%;
+        .tries-count{
+          color: #E5702A;
+          margin: 0 3px;
+        }
+    }
+    }
+  }
+  .past-attempts{
+    .past-attempts-text{
+      margin-top: 20px;
+      font-family: 'HelveticaNeueCyr',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 140%;
+    }
+  }
+
+}

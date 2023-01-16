@@ -1,0 +1,31 @@
+.answer-status-container{
+  .answer-true{
+    background-color: #EFFBE6;
+    border-radius: 10px;
+  }
+  .answer-false{
+    background-color: rgba(229, 42, 42, 0.1);
+    border-radius: 10px;
+
+  }
+  .answer-data{
+    padding: 10px 15px;
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-style: normal;
+
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 150%;
+    .answer-status-true{
+     color: #5BCE00;
+      font-weight: 900;
+    }
+    .answer-status-false{
+      color: #E52A2A;
+      font-weight: 900;
+    }
+    .answer-description{
+color: #343534;
+    }
+  }
+}

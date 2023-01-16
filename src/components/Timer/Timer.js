@@ -22,7 +22,10 @@ const Timer = () => {
                 </div>
             </div>
             <div className="justify-content-center  align-items-center">
-                <Button/>
+                <div className="button-timer">
+                    <Button title="Вернуться к тесту"/>
+                </div>
+
             </div>
         </div>
 

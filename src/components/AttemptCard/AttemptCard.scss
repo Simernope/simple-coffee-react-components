@@ -1,0 +1,51 @@
+.attempt-container {
+  font-family: 'HelveticaNeueCyr', sans-serif;
+  font-style: normal;
+  margin-top: 20px;
+  color: #343534;
+
+  .attempt-background-best {
+    background-color: #EFFBE6;
+    border-radius: 10px;
+  }
+
+  .attempt-background-good {
+    background-color:
+            #FDF1EA;
+    border-radius: 10px;
+  }
+
+  .attempt-background-worst {
+    background-color: #FDEAEA;
+    border-radius: 10px;
+  }
+
+  .attempt-data {
+    padding: 10px;
+
+    .attempt-number-percent {
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 140%;
+
+      .attempt-worst {
+        color: #E52A2A;
+      }
+
+      .attempt-best {
+        color: #5BCE00;
+      }
+
+      .attempt-good {
+        color: #E5702A;
+      }
+    }
+
+    .attempt-percent {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 140%;
+    }
+  }
+
+}
