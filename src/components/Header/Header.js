@@ -10,14 +10,9 @@ const Header = () => {
     return (
         <>
             <div className="header">
-                <div className="row ">
-
-
-
-                        <div className="col d-none d-md-block">
-
+                <div className="row justify-content-center flex-nowrap">
+                        <div className="col d-none d-md-block ">
                             <img src={logo} alt="logo" className="logo"/>
-
                         </div>
 
                         <div className="col-md-7 col-12">
@@ -56,12 +51,8 @@ const Header = () => {
                                     <img src={ava} alt="profile-logo"/>
                                 </div>
                             </div>
-
                         </div>
                     </div>
-
-
-
             </div>
         </>
 

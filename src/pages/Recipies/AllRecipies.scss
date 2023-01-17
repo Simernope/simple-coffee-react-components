@@ -1,0 +1,20 @@
+@use "../../utilities" as const;
+.recipies{
+  .mt--custom-gutter{
+    margin-top: 2rem;
+  }
+  .col-md--custom-gutter{
+    @include const.custom-gutter(margin-left,768px,992px,6rem);
+    @include const.custom-gutter(margin-left,992px,1200px,2.5rem)
+  }
+  .card{
+    border-color: const.$card-border-color;
+  }
+  .card-body{
+    font-size: 24px;
+    font-weight: 700;
+    img{
+      margin-right: 20px;
+    }
+  }
+}

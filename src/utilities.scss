@@ -1,0 +1,8 @@
+$card-border-color: #E5702A;
+$card-header-color: #E5702A;
+
+@mixin  custom-gutter($property,$minWidth,$maxWidth,$value){
+@media (min-width: $minWidth) and (max-width: $maxWidth) {
+  #{$property}: $value;
+}}
+

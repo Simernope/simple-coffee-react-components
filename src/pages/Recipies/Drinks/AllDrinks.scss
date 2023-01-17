@@ -1,0 +1,51 @@
+@use "../../../utilities" as const;
+.drinks{
+  .mt--custom-gutter{
+    margin-top: 2rem;
+  }
+  .col-md--custom-gutter{
+    @include const.custom-gutter(margin-left,768px,992px,6rem);
+    @include const.custom-gutter(margin-left,992px,1200px,2.5rem)
+  }
+  .card{
+    border-color: const.$card-border-color;
+  }
+  .card-body{
+    font-size: 24px;
+    font-weight: 700;
+    img{
+      margin-right: 20px;
+    }
+  }
+  .card-container-header{
+    font-size: 20px;
+    font-weight: 700;
+    color: const.$card-header-color;
+  }
+  .card-container-body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    .card-main {
+      padding-right: 20px;
+      padding-top: 20px;
+      .card-image {
+        img {
+          width: inherit;
+          height: inherit;
+          border-radius: 10px;
+        }
+
+        width: 210px;
+        height: 150px;
+      }
+
+      p {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+      }
+    }
+  }
+}
