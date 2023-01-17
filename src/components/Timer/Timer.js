@@ -1,5 +1,5 @@
 import './Timer.scss'
-import Button from "../Button/Button";
+import Button from "../Buttons/Button";
 
 const Timer = () => {
     return (
