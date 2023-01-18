@@ -3,6 +3,14 @@
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 80px;
+  .grade-title{
+    margin-bottom: 20px;
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 100%;
+  }
   .percent-great{
     width: 150px;
     height: 150px;
@@ -21,7 +29,6 @@
     height: 150px;
     border-radius: 4px;
     background: rgba(229, 112, 42, 0.1);
-    margin-right: 20px;
     .percent-text{
       font-style: normal;
       font-weight: 700;
@@ -45,7 +52,6 @@
 
   }
   .grade-text{
-    height: 150px;
     .grade-title{
       font-family: 'HelveticaNeueCyr', sans-serif;
       font-style: normal;
@@ -59,7 +65,7 @@
       font-weight: 400;
       font-size: 14px;
       line-height: 140%;
-
+      margin: 20px 0;
       .grade-description-mark{
         color: #E5702A;
       }
@@ -70,8 +76,11 @@
       .result-button{
         width: 200px;
         color: #5BCE00;
+        margin: 5px auto;
+
       }
       .result-tries{
+        margin: 5px auto;
       font-family: 'HelveticaNeueCyr', sans-serif;
       font-style: normal;
       font-weight: 400;
